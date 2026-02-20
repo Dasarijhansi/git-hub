@@ -1,0 +1,22 @@
+package com.nt.nt1;
+
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class ClassF {
+
+	
+	
+	public static void main(String[] args) 
+	{
+	
+		String s="hg743h0080700870087bg";
+		
+		Collection<List<String>> m1=s.chars().mapToObj(m->String.valueOf((char)m)).collect(Collectors.partitioningBy(da->da.equals("0"))).values();
+		m1.stream().flatMap(mm->mm.stream()).collect(Collectors.toList()).forEach(System.out::println);
+		
+	}
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;Rough2/src/com.nt.nt1&apos;&#x0D;&#x0A;- Original project: &apos;Rough1&apos;&#x0D;&#x0A;- Destination element: &apos;Rough2/src/com.nt.nt1&apos;&#x0D;&#x0A;- Original element: &apos;com.nr.pack3.Employee.java&apos;" description="Copy compilation unit" destination="=Rough2/src&lt;com.nt.nt1" element1="/src&lt;com.nr.pack3{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1764862823109" units="1" version="1.0"/>
+</session>

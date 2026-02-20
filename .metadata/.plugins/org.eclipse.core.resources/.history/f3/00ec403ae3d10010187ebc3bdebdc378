@@ -1,0 +1,23 @@
+package com.nt.nt1;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class ClassA {
+	
+	
+	public static void main(String[] args) {
+		
+     List<Integer> list= Arrays.asList(1,5,2,4,9,7,8);
+     
+     int ab=6;
+     
+     int a=list.stream().filter(data-> data>ab).max(Integer::compareTo).get();
+      System.out.println(a);
+	}
+}
+
+

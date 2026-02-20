@@ -1,0 +1,16 @@
+package com.nt.nt1;
+
+import java.util.HashSet;
+
+public class ClassF {
+
+	public static void main(String[] args) 
+	{ 
+		
+		int i=1234;
+       
+       
+       
+	}
+	
+}

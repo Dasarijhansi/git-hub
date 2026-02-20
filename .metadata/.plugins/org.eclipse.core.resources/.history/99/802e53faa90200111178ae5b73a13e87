@@ -1,0 +1,26 @@
+package com.nt.nt1;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+public class ClassF {
+
+	public static void main(String[] args) 
+	{ 
+		
+		String s[]= {"fdbdfs","fdbndbvfd","fdbfhdgfd"};
+		String ss=s[0];
+		for(int i=1;i<s.length;i++)
+		{
+			  System.out.println(s[i].startsWith(ss));
+		}
+		
+		
+		
+	}
+	
+}

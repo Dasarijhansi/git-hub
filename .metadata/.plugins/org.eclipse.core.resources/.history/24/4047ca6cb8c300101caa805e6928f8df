@@ -1,0 +1,15 @@
+package com.nt;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ClassB {
+
+	public static void main(String[] args) {
+	
+		List<String> list=Arrays.asList("2134","jdfg43","732","he72");
+		list.stream().filter(data-> data.matches("[0-9].+")).collect(Collectors.toList()).forEach(System.out::println);
+	    
+	}
+}

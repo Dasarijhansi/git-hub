@@ -1,0 +1,23 @@
+package com.nt.nt1;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+public class ClassF {
+
+	
+	
+	public static void main(String[] args) 
+	{
+	   
+	  String s=" i6am3jh23a6n7si";
+		
+	  s.chars().mapToObj(da->(char)da).filter(d->Character.isDigit(d)).collect(Collectors.toList()).forEach(System.out::print);
+		
+	  
+		
+	}
+	
+}

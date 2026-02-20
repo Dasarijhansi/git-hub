@@ -1,0 +1,23 @@
+package com.nt;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class ClassB {
+
+	public static void main(String[] args) {
+	
+		String s="aabbsgaabbddd";
+		IntStream.range(0, s.length()).filter(a->a==0|| s.charAt(a)==s.charAt(a-1))
+		.mapToObj(m->String.valueOf(s.charAt((char)m)).collect(Collectors.toList()).forEach(System.out::println);
+        
+	}
+}

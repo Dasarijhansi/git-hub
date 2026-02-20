@@ -1,0 +1,31 @@
+package com.nt.nt1;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.stream.Stream;
+
+public class ClassF {
+
+	
+	
+	public static void main(String[] args) 
+	{
+	   
+	 
+		String s="jhzanu";
+		
+		if(s.length()%2==0)
+		{
+			System.out.println(s.charAt(s.length()/2-1));
+		}
+		else
+		{
+			System.out.println(s.charAt(s.length()/2));
+		}
+	
+		
+	}
+	
+}

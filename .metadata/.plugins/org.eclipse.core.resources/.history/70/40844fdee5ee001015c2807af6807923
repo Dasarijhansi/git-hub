@@ -1,0 +1,34 @@
+package com.nt.nt1;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class ClassF {
+
+	
+	
+	public static void main(String[] args) 
+	{
+	   
+	 HashMap<Integer,String> hm=new HashMap<Integer,String>();
+	 hm.put(1, "jhansu");
+	 hm.put(5, "fdfh");
+	 hm.put(3, "jngd");
+	 hm.put(2, "njfd");
+	 
+	Set s= hm.entrySet();
+	Iterator i=s.iterator();
+	while(i.hasNext())
+	{
+		Entry e=(Entry)i.next()
+		System.out.println(e.getKey()+" "+e.getValue());
+	}
+	
+	
+	
+		
+	}
+	
+}

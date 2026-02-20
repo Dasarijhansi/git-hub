@@ -1,0 +1,31 @@
+package com.nt.nt1;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+
+
+public class ClassE {
+	
+	
+	
+	public static void main(String[] args) {
+	
+		ArrayList<Employee> al=new ArrayList<Employee>();
+		al.add(new Employee("jhan","hbsf",101,10,1000));
+		al.add(new Employee("hbfs","dww",102,10,4000));
+		al.add(new Employee("mesgf","er",103,20,2000));
+		al.add(new Employee("khwc","hbsmff",104,30,3000));
+		al.add(new Employee("gh","tnb",105,30,6000));
+		
+        
+		
+	
+	}
+}

@@ -1,0 +1,24 @@
+package com.nt;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.stream.Collectors;
+
+
+public class ClassC {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Employee> al=new ArrayList<Employee>();
+		al.add(new Employee("jhan","hbsf",101,10,1000));
+		al.add(new Employee("hbfs","dww",101,10,4000));
+		al.add(new Employee("mesgf","er",103,20,2000));
+		al.add(new Employee("khwc","hbsmff",104,30,3000));
+		
+		
+		al.stream().collect(Collectors.groupingBy(Employee::getEdepno,Collectors.summarizingInt(Employee::getSal))).forEach(System.out::println);;
+		
+		
+	}
+}
